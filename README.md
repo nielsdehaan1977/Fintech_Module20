@@ -29,7 +29,7 @@
 ---
 ## Tech
 
-This project leverages Solidity and Remix IDE [https://remix.ethereum.org/]
+This project leverages Solidity and Remix IDE [Remix IDE](https://remix.ethereum.org/)
 ```
 `Solidity`
 ```
