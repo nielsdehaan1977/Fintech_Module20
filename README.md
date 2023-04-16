@@ -11,11 +11,11 @@
 ---
 ## joint_savings.sol
 ---
-* The smart contract through the following steps:
+* The solidity smart contract goest through the following steps:
 
-* Create a Joint Savings Account Contract in Solidity
-* Compile and Deploy Smart Cotnract in Remix VM (London) (I've used Remix VM London as JavaScript VM was not available anymore)
-* Interact with the deployed smart contract
+1. Create a Joint Savings Account Contract in Solidity
+2. Compile and Deploy Smart Cotnract in Remix VM (London) (I've used Remix VM London as JavaScript VM was not available anymore)
+3. Interact with the deployed smart contract
 
 ---
 ## Table of Content
