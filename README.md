@@ -2,11 +2,12 @@
 
 ![solidity](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Images/solidity.jpg)
 ---
-# this .sol file uses a solidity smart contract to that accepts two user addresses. These addresses will be able to control a joint savings account. The smart contract will use ether management functions. These features will consist of the ability to deposit and withdraw funds from the account.
+# This project uses a solidity smart contract to that accepts two user addresses. These addresses will be able to control a joint savings account. The smart contract will use ether management functions. These features will consist of the ability to deposit and withdraw funds from the account.
 
 ---
 ## This solidity smart contract is a start to build and automate many of the institutions’ financial processes and features, such as in this case hosting joint savings accounts.
-
+---
+![smart_c](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Images/smartcontracts.jpg)
 ---
 ## joint_savings.sol
 ---
