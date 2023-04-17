@@ -42,28 +42,28 @@ To use the joint savings smart contract, simply clone the full repository and op
 The tool will go through the following steps:
 
 1. Create a Joint Savings Account Contract in Solidity
-1.1 Define variables in the new contract:
-1.2 Define a function that accepts two arguments: amount of type uint and recipient of type payable address. 
-1.3 Define a public payable function
-1.4 Define a public function that takes two address payable arguments, named account1 and account2. In the body of the function, set the values of accountOne and accountTwo to account1 and account2.
-1.5 Add a fallback function so that the contract can store ether that’s sent from outside the deposit function.
+* 1.1 Define variables in the new contract:
+* 1.2 Define a function that accepts two arguments: amount of type uint and recipient of type payable address. 
+* 1.3 Define a public payable function
+* 1.4 Define a public function that takes two address payable arguments, named account1 and account2. In the body of the function, set the values of accountOne and accountTwo to account1 and account2.
+* 1.5 Add a fallback function so that the contract can store ether that’s sent from outside the deposit function.
 
 2. Compile and Deploy Smart Cotnract in Remix VM (London) (I've used Remix VM London as JavaScript VM was not available anymore)
-2.1 Compile the smart contract.
-2.2 In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “Remix VM London” is selected as the environment
-2.3 Deploy the smart contract, and then confirm that it successfully deployed.
+* 2.1 Compile the smart contract.
+* 2.2 In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “Remix VM London” is selected as the environment
+* 2.3 Deploy the smart contract, and then confirm that it successfully deployed.
 ![deploy](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/1_deploy_joint_savings.jpg)
 
 3. Interact with the deployed smart contract, test smart contract's functionality
-3.1 Use setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from the contract.
+* 3.1 Use setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from the contract.
 ![set_account](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/2_set_accounts.jpg)
 
-3.2 Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract: ** Trade 1: Send 1 ether as wei, Trade 2: Send 10 ether as wei and Trade 3: Send 5 ether**
+* 3.2 Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract: ** Trade 1: Send 1 ether as wei, Trade 2: Send 10 ether as wei and Trade 3: Send 5 ether**
 ![trans1](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_1_2.jpg)
 ![trans2](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_2_2.jpg)
 ![trans3](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_3_2.jpg)
 
-3.3 Test the contract’s withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. Also, use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
+* 3.3 Test the contract’s withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. Also, use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
 ![trans4](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_4_2.jpg)
 ![trans5](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_5_2.jpg)
 
