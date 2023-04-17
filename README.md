@@ -58,13 +58,19 @@ The tool will go through the following steps:
 * 3.1 Use setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from the contract.
 ![set_account](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/2_set_accounts.jpg)
 
-* 3.2 Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract: ** Trade 1: Send 1 ether as wei, Trade 2: Send 10 ether as wei and Trade 3: Send 5 ether**
+* 3.2 Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract: 
+* Trade 1: Send 1 ether as wei
 ![trans1](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_1_2.jpg)
+* Trade 2: Send 10 ether as wei
 ![trans2](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_2_2.jpg)
+* Trade 3: Send 5 ether
 ![trans3](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_3_2.jpg)
 
 * 3.3 Test the contract’s withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. Also, use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
+
+* Trade 4: Withdraw 5 Ether into AccountOne
 ![trans4](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_4_2.jpg)
+* Trade 5: Withdraw 10 Ether into AccountTwo
 ![trans5](https://github.com/nielsdehaan1977/Fintech_Module20/blob/main/Execution_Results/transaction_5_2.jpg)
 
 
